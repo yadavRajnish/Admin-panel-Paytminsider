@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.css-1oa87f3 {
+  padding: 70px 0 0 10px !important;
+}
+.ProjectButton {
+  &:hover {
+    color: black !important;
+    background-color: white !important;
+    transition: all 1s;
+  }
+}
+.css-hyum1k-MuiToolbar-root {
+  background-color: #ffffff;
+}
+thead {
+  background-color: rgb(214, 213, 213) !important;
+}
+table,
+th,
+td {
+  padding: 10px 20px;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background: rgb(245, 245, 245);
+}
+.userButton {
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+.userButton:hover {
+  transition: all 1s;
+}
+.deleteButton:hover {
+  background-color: red;
+  border: 2px solid transparent;
+}
+.editButton:hover {
+  background-color: green;
+  border: 2px solid transparent;
+}
+.project-card {
+  flex: 3;
+  padding: 10px;
+  /* border: 1px solid ; */
+  box-shadow: 0px 6px 20px rgba(0 0 0/20%);
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+}
+.project-image {
+  height: 250px;
+  max-width: 100%;
+}
+.currancyPaper {
+  width: 500px;
+  height: 350px;
+  background: linear-gradient(rgb(219 230 235), rgb(245 245 245));
+  margin: 90px auto;
+  padding-top: 20px;
+  text-align: center;
+}
+.currancyPaper > h2 {
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 1px 3px rgb(29, 28, 28);
+  margin-bottom: 50px;
+}
+.currancyFormControl {
+  width: 130px;
+}
+.currancyButton {
+  border-radius: 7px;
+  padding: 5px 15px;
+  margin-top: 20px;
+}
+.currancyButton:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid transparent;
+  transition: all 0.7s;
+}
+.css-1fobnq5-MuiPaper-root-MuiAppBar-root {
+  box-shadow: 0px 0px 0px -1px rgba(0, 0, 0, 0.2),
+    8px 3px 10px 0px rgba(0, 0, 0, 0.14), 8px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+td{
+  vertical-align: middle;
+}
+
+.scrollable-table-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.scrollable-table {
+  min-width: 100%;
+}
